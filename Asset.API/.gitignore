@@ -1,0 +1,82 @@
+# ========================
+# C# / .NET
+# ========================
+
+# Carpetas de compilación y binarios
+[Bb]in/
+[Oo]bj/
+
+# Publicaciones / builds
+publish/
+
+# Paquetes NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Configuración de Visual Studio
+.vs/
+
+# Archivos de usuario/IDE
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Archivos temporales y backups
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Archivos de sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Archivos de configuración sensibles
+.env
+appsettings.*.json
+
+# EF Core scaffolding
+ScaffoldedFiles/
+*.Designer.cs
+
+# ========================
+# Node.js
+# ========================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Archivos de entorno específicos de Node
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ========================
+# VS Code
+# ========================
+
+.vscode/
+
+# ========================
+# Mac / Linux
+# ========================
+
+.DS_Store
+.idea/
+
+# ========================
+# Otros temporales
+# ========================
+
+tmp/
+temp/
